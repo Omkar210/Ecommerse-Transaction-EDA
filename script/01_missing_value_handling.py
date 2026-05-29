@@ -2,12 +2,12 @@ import numpy as np
 import pandas as pd
 
 
-"""# Load Data"""
+# Load Data
 
 df = pd.read_csv("ecommerce-transactions-raw.csv")
 df.head()
 
-"""# Information about Data"""
+# Information about Data
 
 df.info()
 
@@ -15,7 +15,7 @@ df.describe()
 
 df.describe(include='object')
 
-"""# Missing Values"""
+# Missing Values
 
 from enum import unique
 
